@@ -7,7 +7,7 @@
 ### Example 1:
 Input:   
 ``["andesite", "grass", "dirt", "pink wool", "dead shrub"],  
- ["diorite", "andesite", "grass", "dirt", "dead shrub"]``
+ ["diorite", "andesite", "grass", "dirt", "dead shrub"]``   
 Output: ``["diorite", "pink wool"]``
 
 
@@ -41,6 +41,6 @@ diffArray(["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", 
 
 **Step1**: declare new variable ``oneArray`` that combines all of the values from both arrays  
 **Step2**: delcare new variable ``uniques`` that eliminates any dublicates from the ``oneArray`` by using ``[... new Set(oneArray)]``, and stores only the unique values  
-**Step3**: declare new variable ``arr1Uniques`` that, by using filter function, validates if ``uniques`` array has an element that is not represented in ``arr1``. If true, that value will be stored in ``arr1Uniques`` 
+**Step3**: declare new variable ``arr1Uniques`` that, by using filter function, validates if ``uniques`` array has an element that is not represented in ``arr1``. If true, that value will be stored in ``arr1Uniques``    
 **Step4**: declare new variable ``arr2Uniques`` that, by using filter function, validates if ``uniques`` array has an element that is not represented in ``arr2`` If true, that value will be stored in ``arr2Uniques``   
 **Step5**: return the result by combining ``arr1Uniques`` together with ``arr2Uniques`` using the concat function  
