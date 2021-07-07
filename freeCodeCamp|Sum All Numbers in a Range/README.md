@@ -6,7 +6,7 @@
 
 ### Example 1:
 Input: ``sumAll([4,1])``  
-Output: ``10`` 
+Output: ``10``    
 Explanation: ``4+3+2+1=10``
 
 
