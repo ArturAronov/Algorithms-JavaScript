@@ -2,17 +2,17 @@
 
 **Source**: [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range)  
 **Difficulty**: Intermediate  
-**Brief**:    
-We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.   
+**Brief**: We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.   
 
 ### Example 1:
-Input: ``sumAll([4,1])``
+Input: ``sumAll([4,1])``  
 Output: ``10`` 
 Explanation: ``4+3+2+1=10``
 
 
 ### Solution 1:
-#### Runtime: ``N/A``, Memory: ``N/A``: 
+#### Runtime: ``N/A``   
+Memory: ``N/A``   
 ```
 function sumAll(arr) {
   let result=0;
