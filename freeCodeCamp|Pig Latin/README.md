@@ -42,6 +42,7 @@ function translatePigLatin(str) {
 **Step4**: create a while loop that runs when both of the contitions are met:  
 1) The first letter of ``strArr`` is a constant and      
 2) ``i`` is smaller than ``str`` length  
+
 **Step5**: should both of these contidion equate to ``true``, then the first letter of strArr gets added into the back of the array (``Array.push()``), and that very same verst letter gets deleted from beginning of the array (``Array.shift()``)  
 **Step6**: For the final step, the if/else statement verifies if the ``str`` starts with constant or vowel. If the first letter of ``str`` is vowel, the ``strArr`` gets made into a string with (``Array.join('')`` and the `` 'way' `` gets added at the end of the string. Should the first letter of the ``str`` be constant, the strArr gets turned into a string and `` 'ay' `` gets added at the end of the string.  
  
