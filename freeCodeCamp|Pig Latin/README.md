@@ -8,8 +8,8 @@ i## Pig Latin
 
 
 ### Example 1:
-Input: ``schwartz``   
-Output: ``artzschway``
+**Input**: ``schwartz``   
+**Output**: ``artzschway``
 
 
 

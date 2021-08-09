@@ -11,14 +11,14 @@ The character and its pair are paired up in an array, and all the arrays are gro
 
 
 ### Example 1:
-Input: ``CTCTA``   
-Output: ``[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]``   
+**Input**: ``CTCTA``   
+**Output**: ``[["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]``   
 
 
 
 ### Solution 1:
-#### Runtime: ``N/A``   
-####  Memory: ``N/A``
+**Runtime**: ``N/A``   
+**Memory**: ``N/A``
 ```
 function pairElement(str) {
   const firstBase='ATCGATTGAGCTCTAGCG';

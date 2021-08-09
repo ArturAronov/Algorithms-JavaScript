@@ -5,13 +5,13 @@
 **Brief**: Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.      
 
 ### Example 1:
-Input: ``Your_Put-Options ExpireWorthless``  
-Output: ``your-put-options-expire-worthless``  
+**Input**: ``Your_Put-Options ExpireWorthless``  
+**Output**: ``your-put-options-expire-worthless``  
 
 
 ### Solution 1:
-#### Runtime: ``N/A``   
-####  Memory: ``N/A``     
+**Runtime**: ``N/A``   
+**Memory**: ``N/A``     
 ```
 function spinalCase(str) {
   const lower=/[a-z]/;

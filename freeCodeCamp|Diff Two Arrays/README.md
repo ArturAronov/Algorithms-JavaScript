@@ -5,16 +5,16 @@
 **Brief**: Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.       
 
 ### Example 1:
-Input:   
+**Input**:   
 ``["andesite", "grass", "dirt", "pink wool", "dead shrub"],  
  ["diorite", "andesite", "grass", "dirt", "dead shrub"]``   
-Output: ``["diorite", "pink wool"]``
+**Output**: ``["diorite", "pink wool"]``
 
 
 
 ### Solution 1:
-#### Runtime: ``N/A``
-####  Memory: ``N/A``
+**Runtime**: ``N/A``   
+**Memory**: ``N/A``
 ```
 function diffArray(arr1, arr2) {
   const oneArray=arr1.concat(arr2);
