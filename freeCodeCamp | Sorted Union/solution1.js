@@ -4,18 +4,19 @@ function uniteUnique(arr) {
     completeArr.push(arguments[i])
   };
 
-  //since uniteUnique function only passes one argument, yet the test-case has multiple parameters, I need to find all of the values by using arguments objects
-
-  const newArr=completeArr.reduce((a,b)=>a+b);
-  //this function will unite all of the arrays into one big one.
+  //Since uniteUnique function only passes one argument, yet the test-case has multiple parameters, I need to find all of the values by using arguments objects.
+  
+  const newArr=completeArr.reduce((a,b)=>a+b)
+  //This function will unite all of the arrays into a string.
 
   const result=[...new Set(newArr)].map(element=>{
-    console.log(element)
     if(!isNaN(parseFloat(element))){
       return Number(element)
+      //This will convert each string element into a number.
     }
   }).filter(element=>{
-    return element!==undefined
+    return element===Number(element)
+    //This verifies if element is a number in which case it gets returned.
   });
 
   return result;
