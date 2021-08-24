@@ -1,7 +1,7 @@
 ## Seek & Destroy
 
 **Source**: [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy)  
-**Difficulty**: 
+**Difficulty**: Intermediate
 **Brief**:     
 
 ### Example 1:
