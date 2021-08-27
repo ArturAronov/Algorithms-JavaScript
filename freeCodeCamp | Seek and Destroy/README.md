@@ -1,7 +1,7 @@
 ## Seek & Destroy
 
 **Source**: [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy)  
-**Difficulty**: Intermediate
+**Difficulty**: Intermediate   
 **Brief**:     
 Perform a search and replace on the sentence using the arguments provided and return the new sentence.  
 
