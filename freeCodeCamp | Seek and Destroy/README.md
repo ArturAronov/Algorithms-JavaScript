@@ -9,8 +9,8 @@ Second argument is the word that you will be replacing (before).
 Third argument is what you will be replacing the second argument with (after).  
 
 ### Example 1:
-Input: ``("Let us go to the store", "store", "mall")``
-Output: ``Let us go to the mall``
+**Input:** ``("Let us go to the store", "store", "mall")``   
+**Output:** ``Let us go to the mall``
 
 
 
