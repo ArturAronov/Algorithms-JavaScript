@@ -14,7 +14,23 @@ Third argument is what you will be replacing the second argument with (after).
 
 
 
-### Solution 1:
+### Solution 1:   
+```
+function destroyer(arr) {
+  let seeker=[];
+
+  for(let i=1; i<arguments.length; i++) {
+    seeker.push(arguments[i])
+  };
+
+  return arr.filter(element=>{
+    if(!seeker.includes(element)){
+      return element
+    }
+  });
+};
+```
+
 #### Runtime: ''
 ####  Memory: ''
 ''
