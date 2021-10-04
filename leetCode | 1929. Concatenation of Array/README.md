@@ -9,15 +9,15 @@ Specifically, ``ans`` is the concatenation of two ``nums`` arrays.
  
 Return the array ``ans``.   
 
-### Example 1:
-**Input**: ``nums = [1,2,1]``
-**Output**: ``[1,2,1,1,2,1]``
+### Example:
+**Input**: ``nums = [1,2,1]``  
+**Output**: ``[1,2,1,1,2,1]``  
 
 
 
 ### Solution 1:
-**Runtime**: ``92ms``
-**Memory**: ``41.7MB`` 
+**Runtime**: ``92ms``   
+**Memory**: ``41.7MB``   
 ```
 var getConcatenation = function(nums) {
     return nums.concat(nums);
@@ -37,4 +37,4 @@ var getConcatenation = function(nums) {
     };
     return ans;
 };
-``
+```
