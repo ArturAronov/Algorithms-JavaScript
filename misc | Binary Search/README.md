@@ -4,15 +4,15 @@
 **O(n)**:      
 
 ### Solution 1:
-**Runtime**: ``N/A``
-**Memory**: ``N/A``
+**Runtime**: ``N/A``  
+**Memory**: ``N/A``  
 ```
 const binarySearch=function(arr, search){
-	let lowerBound=0;
-	let upperBound=arr.length-1;
-	while(lowerBound<=upperBound){
-		const midpoint=parseInt((upperBound+lowerBound)/2);
-		const valueAtMidpoint=arr[midpoint];
+  let lowerBound=0;
+  let upperBound=arr.length-1;
+  while(lowerBound<=upperBound){
+    const midpoint=parseInt((upperBound+lowerBound)/2);
+  const valueAtMidpoint=arr[midpoint];
 		if(search===valueAtMidpoint){
 			return `Number ${search} is located in the index ${midpoint}.`;
 		}else if(search<valueAtMidpoint){
@@ -23,8 +23,8 @@ const binarySearch=function(arr, search){
 	};
 	return `Number ${search} is not found in the array.`;
 };
-
 console.log(binarySearch([2,33,56,79,88,103,200,666], 88));
+
 ```
 **Notes**:  
 
