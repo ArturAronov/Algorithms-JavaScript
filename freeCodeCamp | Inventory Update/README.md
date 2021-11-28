@@ -5,6 +5,8 @@
 **Brief**:     
 Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in ``arr1``). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.   
 
+
+
 ### Example 1:
 **Input**:   
 ```
@@ -16,6 +18,8 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"], [3, "Half-Eaten Apple"], [5, "Microphone"], [7, "Toothpaste"]]
 ```
 
+
+
 ### Example 2:
 **Input**:
 ```
@@ -26,6 +30,8 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 ```
 [[67, "Bowling Ball"], [2, "Hair Pin"], [3, "Half-Eaten Apple"], [7, "Toothpaste"]]
 ```
+
+
 
 ### Example 3:
 **Input**:
@@ -40,7 +46,7 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 
 
 
-### Solution 1:
+### Solution:
 **Runtime**: ``N/A``   
 **Memory**: ``N/A``    
 ```
@@ -85,10 +91,10 @@ var newInv = [
 updateInventory(curInv, newInv);
 ```
 **Notes**: 
-- The key takeaways from this challenge is that algorightm is given two 2d arrays (``arr1`` and ``arr2``), each array has a subarray with two values - a product quantity (as a string) and and name of the product (as a string)   
-- Should both arrays contain same product, the quantity of the product from ``arr2`` gets added to ``arr1`` gets added together     
+- The key takeaways from this challenge is that algorightm is given two 2d arrays (``arr1`` and ``arr2``), each array has a subarray with two values - a product quantity (as a number) and and name of the product (as a string)   
+- Should both arrays contain same product, the quantity of the product from ``arr2`` gets added to ``arr1``        
 - If product is listed in ``arr2`` and absent in ``arr1``, then the quantity and product gets added into ``arr1``     
-- If one of arrays is empty, the second array gets returned     
+- If one of arrays is empty, the other array gets returned     
 - The returned array should be listed in the alphabetical order    
 
 **Step1**: First lines check if either of the arrays is empty, in which case, the non-empty array gets returned in the alphabetical order    
@@ -97,5 +103,5 @@ updateInventory(curInv, newInv);
 **Step4**: Next step is to create two layered nested loop. First loop will iterate over array in general, and the second (nested) loop interates over nested array   
 **Step5**: Within the nested loop, the if statement checks if ``arr1`` and ``arr2`` have matching product values. Shoult that rturn ``true``, then the quantity of product in ``arr1`` gets added from ``arr2`` and the first array gets pushed forward by 1 ``i++``   
 **Step6**: Should there be no element in ``arr1`` that exists in ``arr2``, that element gets added to ``remainders`` with ``remainders.push(arr2[i])``   
-**Step7**: Once the both loops are done iterating, for the next step an ternary operator checks if ``remainder`` is has any elements inside. Should that result to ``true``, then all of those elements get unpacked with the spread operator ``...`` and pushed into ``arr1``    
+**Step7**: Once the both loops are done iterating, for the next step an ternary operator checks if ``remainder`` has any elements inside. Should that result to ``true``, then all of those elements get unpacked with the spread operator ``...`` and pushed into ``arr1``    
 **Step8**: For the last step, ``arr1`` gets returned in alphabetical order with ``arr1.sort((a,b)=>a[1]>b[1])``    
