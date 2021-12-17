@@ -1,6 +1,7 @@
 ## Sum All Odd Fibonacci Numbers
 
 **Source**: [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers)     
+**Difficulty**: Intermediate    
 **Brief**:     
 Given a positive integer ``num``, return the sum of all odd Fibonacci numbers that are less than or equal to ``num``.   
 
