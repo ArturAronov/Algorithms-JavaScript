@@ -35,9 +35,3 @@ var minPartitions = function(n) {
   return result;
 };
 ```
-**Notes**:  
-
-**Step1**: 
-**Step2**: 
-**Step3**: 
-
