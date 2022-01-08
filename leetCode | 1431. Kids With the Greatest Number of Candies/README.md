@@ -25,7 +25,8 @@ If you give all extraCandies to:
 ### Solution:
 **Runtime**: ``76ms``   
 **Memory**: ``47.92MB``   
-```var kidsWithCandies = function(candies, extraCandies) {
+```
+var kidsWithCandies = function(candies, extraCandies) {
   const maxCandies=Math.max(...candies);
   
   return candies.map(element=>(element+extraCandies)>=maxCandies);
