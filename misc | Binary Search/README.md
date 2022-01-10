@@ -3,7 +3,7 @@
 **Introduction**: Binary search algorithm is a efficient way of finding a number in the sorted array, without the need of going throughout the entire array one by one.   
 **O(n)**:      
 
-### Solution 1:
+### Solution:
 **Runtime**: ``N/A``  
 **Memory**: ``N/A``  
 ```
@@ -26,9 +26,3 @@ const binarySearch=function(arr, search){
 console.log(binarySearch([2,33,56,79,88,103,200,666], 88));
 
 ```
-**Notes**:  
-
-**Step1**:   
-**Step2**:   
-**Step3**:   
-
